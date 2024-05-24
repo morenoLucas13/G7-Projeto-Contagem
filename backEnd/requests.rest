@@ -1,0 +1,10 @@
+###########################
+#! Instalar o 'REST Client'
+###########################
+POST http://localhost:3320/login
+Content-Type: application/json
+
+{
+    "email": "bob@gmail.com",
+    "senha": "bob123"
+}
