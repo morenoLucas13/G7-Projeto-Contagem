@@ -1,0 +1,54 @@
+###
+// teste rotas do contagens
+GET http://10.188.10.109:3320/contagens
+
+###
+// nome dos alunos
+GET http://10.188.10.109:3320/nome
+
+###
+POST http:// 10.188.10.109:3320/login
+Content-Type: application/json
+
+ {
+    "email_us":"lucas.moreno@portalsesisp.org.br",
+    "senha_us":"Sesisp@2643"
+}
+
+###
+GET http://10.188.10.109:3320/contagens/11
+
+###
+DELETE http://localhost:3320/contagens/23
+
+
+
+###
+POST http://10.188.10.109:3320/contagens/22
+Content-Type: application/json
+
+ {
+    "idusuario":2,
+    "idturma":1,
+    "cont_qtd_geral":22,
+    "cont_qtd_dieta":2,
+    "cont_data": "",
+    "cont_sala":"sala 12",
+    "cont_lista_ausente":"7 pessoas faltaram hoje"
+}
+
+
+###
+PUT http://10.188.10.109:3320/contagens/2
+Content-Type: application/json
+
+ {
+    "idusuario":2,
+    "idturma":8,
+    "cont_qtd_geral":19,
+    "cont_qtd_dieta":0,
+    "cont_data":"",
+    "cont_sala":"10",
+    "cont_lista_ausente":"6 pessoas faltaram hoje"
+}
+

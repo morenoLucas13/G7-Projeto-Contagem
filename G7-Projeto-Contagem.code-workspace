@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Mobile",
+			"path": "../../Aulas_Senai_2024/Maio2024/ContadorDeAlunos/Mobile"
+		},
+		{
+			"name": "backEnd",
+			"path": "../../Aulas_Senai_2024/Maio2024/ContadorDeAlunos/backEnd"
+		},
+		{
+			"name": "G7-Projeto-Contagem",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
